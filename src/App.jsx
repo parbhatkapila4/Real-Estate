@@ -1,10 +1,10 @@
-import Navbar from "./Component/navbar";
+import Header from "./Component/Header";
 
 const App = () => {
 return(
-  <>
-  <Navbar/>
-  </>
+<div className="w-full overflow-hidden">  
+  <Header/>
+  </div>
 )
 
 }
