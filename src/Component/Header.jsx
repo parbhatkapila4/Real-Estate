@@ -12,10 +12,16 @@ const Header = () => {
           Discover where your next chapter begins
         </h2>
         <div className="space-x-6 mt-16">
-          <a href="#Projects" className="border border-white px-8 py-3 rounded">
+          <a
+            href="#Projects"
+            className="border border-white hover:bg-black px-8 py-3 rounded"
+          >
             Property Showcase
           </a>
-          <a href="#Contact" className="bg-blue-500 px-8 py-3 rounded">
+          <a
+            href="#Contact"
+            className="bg-blue-500 px-8 py-3 rounded hover:bg-gray-500"
+          >
             Schedule a Call
           </a>
         </div>

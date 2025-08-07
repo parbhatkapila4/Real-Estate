@@ -36,7 +36,7 @@ export const assets = {
 export const projectsData = [
     {
       title: "Skyline Haven",
-      price: "$2,50,000",
+      price: "$1,90,000",
       location: "California",
       image: project_img_1
     },
@@ -48,25 +48,25 @@ export const projectsData = [
     },
     {
       title: "Serenity Suites",
-      price: "$2,50,000",
+      price: "$1,60,000",
       location: "Chicago",
       image: project_img_3
     },
     {
       title: "Central Square",
-      price: "$2,50,000",
+      price: "$900,000",
       location: "Los Angeles",
       image: project_img_4
     },
     {
       title: "Vista Verde",
-      price: "$2,50,000",
+      price: "$670,000",
       location: "San Francisco",
       image: project_img_5
     },
     {
       title: "Serenity Suites",
-      price: "$2,50,000",
+      price: "$1,11,000",
       location: "Chicago",
       image: project_img_6
     },
@@ -75,27 +75,27 @@ export const projectsData = [
 
   export const testimonialsData = [
     {
-        name: "Donald Jackman",
+        name: "Ryder Blake",
         title: "Marketing Manager",
         image: profile_img_1,
         alt: "Portrait of Donald Jackman",
-        rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        rating: 3,
+        text: "From day one, they just got what I was looking for. They helped me lock in the perfect property, and their attention to detail and dedication to making sure I was happy? Absolutely next level."
     },
     {
-        name: "Richard Nelson",
+        name: "Zane Mercer",
         title: "UI/UX Designer",
         image: profile_img_2,
         alt: "Portrait of Richard Nelson",
         rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Right from our first conversation, they understood my vision. They found the perfect property and went above and beyond every step of the way. Their focus on detail and client satisfaction is unmatched."
     },
     {
-        name: "James Washington",
+        name: "Miles Beckett",
         title: "Co-Founder",
         image: profile_img_3,
         alt: "Portrait of James Washington",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Right from our first conversation, they understood my vision. They found the perfect property and went above and beyond every step of the way. Their focus on detail and client satisfaction is unmatched."
     }
 ];
