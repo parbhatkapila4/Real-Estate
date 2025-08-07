@@ -1,4 +1,6 @@
 import React from "react";
+import { toast } from "react-toastify";
+import { motion } from "framer-motion";
 
 // whole statement is imported from web3 forms
 const Contact = () => {
@@ -20,16 +22,20 @@ const Contact = () => {
 
     if (data.success) {
       setResult();
-      alert("Form Submitted Successfully");
+      toast.success("Form has been Submitted Successfully");
       event.target.reset();
     } else {
       console.log("Error", data);
-      alert(data.message);
+      toast.error(data.message);
       setResult("");
     }
   };
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 100 }}
+      transition={{ duration: 3 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: false }}
       className="text-center px-6 py-20 lg:px-32 w-full overflow-hidden"
       id="Contact"
     >
@@ -83,7 +89,7 @@ const Contact = () => {
           {result ? result : "Send Message"}
         </button>
       </form>
-    </div>
+    </motion.div>
   );
 };
 

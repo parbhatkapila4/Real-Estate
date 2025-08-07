@@ -1,8 +1,13 @@
 import { assets } from "../assets/assets";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, x: 200 }}
+      transition={{ duration: 3 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
       className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:pd-32 w-full overflow-hidden"
       id="About"
     >
@@ -49,11 +54,11 @@ const About = () => {
             property—it’s about helping you make your mark with confidence.
           </p>
           <button className="bg-blue-500 text-white px-8 py-2 rounded-2xl hover:bg-black">
-            Uncover the Story
+            Uncover the Story{" "}
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

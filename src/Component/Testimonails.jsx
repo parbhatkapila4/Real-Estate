@@ -1,8 +1,13 @@
 import { assets, testimonialsData } from "../assets/assets";
+import { motion } from "framer-motion";
 
 const Testimonails = () => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 100 }}
+      transition={{ duration: 3 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
       className="container mx-auto py-10 lg:px-32 w-full overflow-hidden"
       id="Testimonials"
     >
@@ -40,7 +45,7 @@ const Testimonails = () => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
